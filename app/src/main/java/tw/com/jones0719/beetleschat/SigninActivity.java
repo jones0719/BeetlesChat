@@ -75,7 +75,7 @@ public class SigninActivity extends AppCompatActivity {
         Intent intent = new Intent();
         intent.setClass(SigninActivity.this, ChatRoomActivity.class);
         Bundle bundle = new Bundle();
-        bundle.putString("USER_LEVEL", level);           /* 0:User 1:SuperUser */
+        bundle.putString("USER_LEVEL", level);            /* 0:User 1:SuperUser */
         bundle.putString("USER_NAME", user_name);        /* 匿稱置入Bundle物件。*/
         bundle.putString("USER_PWD", user_pwd);          /* 密碼置入Bundle物件。*/
         /* 使用者選擇的頻道置入Bundle物件。 106/11/26 Jones*/
