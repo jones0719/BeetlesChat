@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/item_back"
+        android:title="備份"
+        android:visible="false"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/item_save"
+        android:title="儲存對話記錄"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/item_brow"
+        android:title="讀取歷史記錄"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/item_readme"
+        android:title="讀我說明"
+        app:showAsAction="never" />
+
+</menu>
