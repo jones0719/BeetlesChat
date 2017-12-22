@@ -25,7 +25,7 @@ public class SigninActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_signin);
         /*------------------------------------------------------*/
-        findViews();     /* 取得畫面輸入欄位物件,用以取得輸入內容值。106/11/05*/
+        findViews();     /* 取得畫面輸入欄位物件,用以取得輸入內容值。106/11/05 */
         setListeners();  /* 設定按鈕物件的監聽器。106/11/05 */
         rtoShePrf();     /* 取出曾經輸入過的匿名及密碼顯示在對應的欄位裏,省去再次輸入的麻煩。*/
     }
@@ -76,8 +76,8 @@ public class SigninActivity extends AppCompatActivity {
         intent.setClass(SigninActivity.this, ChatRoomActivity.class);
         Bundle bundle = new Bundle();
         bundle.putString("USER_LEVEL", level);            /* 0:User 1:SuperUser */
-        bundle.putString("USER_NAME", user_name);        /* 匿稱置入Bundle物件。*/
-        bundle.putString("USER_PWD", user_pwd);          /* 密碼置入Bundle物件。*/
+        bundle.putString("USER_NAME", user_name);         /* 匿稱置入Bundle物件。*/
+        bundle.putString("USER_PWD", user_pwd);           /* 密碼置入Bundle物件。*/
         /* 使用者選擇的頻道置入Bundle物件。 106/11/26 Jones*/
         bundle.putString("USER_CHANNEL", str_channel);
         intent.putExtras(bundle);                        /* Bundle置入Intent。 */
