@@ -25,7 +25,7 @@ public class SigninActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_signin);
         /*------------------------------------------------------*/
-        findViews();     /* 取得畫面輸入欄位物件,用以取得輸入內容值。106/11/05 */
+        findViews();     /* 取得畫面輸入欄位物件,用以取得輸入內容值。106/11/05*/
         setListeners();  /* 設定按鈕物件的監聽器。106/11/05 */
         rtoShePrf();     /* 取出曾經輸入過的匿名及密碼顯示在對應的欄位裏,省去再次輸入的麻煩。*/
     }
