@@ -70,27 +70,6 @@ public class SigninActivity extends AppCompatActivity {
         }
     };
 
-    /* 管理者帳號[管理者登入]監聽器*/
-//    TextView.OnClickListener tvSuperSign_Listener = new TextView.OnClickListener() {
-//        private String superUserName, superUserPwd;
-//        @Override
-//        public void onClick(View v) {
-//            superUserName = et03.getText().toString().trim();
-//            superUserPwd = et04.getText().toString().trim();
-//            if (!superUserName.equals("") && !superUserPwd.equals("")) {
-//                et03.setText("");  /* 輸入完整,在進入主畫面前先把欄位清空。*/
-//                et04.setText("");
-//                //Toast.makeText(SigninActivity.this,"按下管理者登入功能!", Toast.LENGTH_SHORT).show();
-//                toChatRoom("1", superUserName, superUserPwd);
-//            } else {
-//                Toast.makeText(
-//                        SigninActivity.this,
-//                        "按下[管理者登入]功能,但未輸入帳號或密碼。",
-//                        Toast.LENGTH_SHORT).show();
-//            }
-//        }
-//    };
-
     /* 進入主畫面 */
     void toChatRoom(String level, String user_name, String user_pwd, String str_channel) {
         Intent intent = new Intent();
